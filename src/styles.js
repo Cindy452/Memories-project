@@ -22,6 +22,10 @@ export default makeStyles((theme) => ({
         heading: {
           fontSize: '10vw',
         }
+      },
+      [theme.breakpoints.up('sm')]: {
+        mainContainer: {
+          flexDirection: 'row'
+        }
       }
-     
-}))
+     }))
